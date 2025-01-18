@@ -19,6 +19,7 @@ class Example2Test {
         assertEquals(3, result[1]);
         assertEquals(2, result[2]);
         assertEquals(1, result[3]);
+
     }
 
 }
