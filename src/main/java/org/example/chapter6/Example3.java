@@ -55,6 +55,7 @@ public class Example3 {
                     stack.pop();
                 }
             }
+
             if (stack.isEmpty()) {
                 answer++;
             }
