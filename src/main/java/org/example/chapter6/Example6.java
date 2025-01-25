@@ -18,8 +18,8 @@ public class Example6 {
          * 4. 최종적으로 인형 터진 갯수 리턴
          */
         int answer = 0;
-
         Stack<Integer> stack = new Stack<>();
+
         A: for (int i = 0; i < moves.length; i++) {
             for (int j = 0; j < board.length; j++) {
 
