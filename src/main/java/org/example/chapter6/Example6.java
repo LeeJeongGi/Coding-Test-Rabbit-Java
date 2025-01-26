@@ -22,7 +22,6 @@ public class Example6 {
 
         A: for (int i = 0; i < moves.length; i++) {
             for (int j = 0; j < board.length; j++) {
-
                 int current = board[j][moves[i] - 1];
 
                 if (current != 0) {
