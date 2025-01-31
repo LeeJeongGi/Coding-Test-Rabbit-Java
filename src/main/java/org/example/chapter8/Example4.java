@@ -22,6 +22,7 @@ public class Example4 {
         ArrayList<String> works = new ArrayList<>();
         for (String s : record) {
             String[] temp = s.split(" ");
+
             if ("Enter".equals(temp[0])) {
                 works.add(temp[0] + " " + temp[1]);
                 userInfo.put(temp[1], temp[2]);
