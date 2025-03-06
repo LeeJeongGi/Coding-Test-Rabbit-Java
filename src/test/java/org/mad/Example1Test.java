@@ -26,6 +26,7 @@ class Example1Test {
         };
         int[] order2 = {1, 1, 2, 3, 5, 8, 777, 777, 777};
         int cost2 = 30;
+
         System.out.println(example1.solution(n2, prices2, order2, cost2));
     }
 
