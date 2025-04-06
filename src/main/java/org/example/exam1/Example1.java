@@ -8,6 +8,7 @@ public class Example1 {
 
     int[][] array;
     String answer = null;
+
     StringBuilder route;
     char[] dir = {'d', 'l', 'r', 'u'};
     int[] rdir = {1, 0, 0, -1};
